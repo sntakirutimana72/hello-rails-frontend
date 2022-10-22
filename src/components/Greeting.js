@@ -12,13 +12,18 @@ const Greeting = () => {
   }, []);
 
   return (
-    <div>
+    <>
       {isLoading && <p>loading...</p>}
 
       {error && <p>Error occurred</p>}
 
-      {greeting && <p>{greeting.text}</p>}
-    </div>
+      {greeting && (
+        <div>
+          <h3><i>{greeting.lang}</i></h3>
+          <p>{greeting.message}</p>
+        </div>
+      )}
+    </>
   );
 };
 
