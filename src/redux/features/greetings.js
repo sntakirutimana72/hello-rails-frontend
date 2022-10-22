@@ -1,12 +1,12 @@
-import { createSlice, createAsyncThunk } from '@reduxjs/toolkit'
-import { pendingEffect, fulfilledEffect, rejectedEffect } from '../effects/greetings'
-import { getAny } from '../../apis/greetings'
+import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
+import { pendingEffect, fulfilledEffect, rejectedEffect } from '../effects/greetings';
+import { getAny } from '../../apis/greetings';
 
 const initialState = {
   greeting: null,
   error: null,
   isLoading: false,
-}
+};
 
 export const fetchAnyGreeting = createAsyncThunk('greetings/fetchAny', getAny);
 

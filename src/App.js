@@ -2,11 +2,11 @@ import {
   BrowserRouter,
   Routes,
   Route,
-  NavLink
-} from "react-router-dom"
-import Greeting from './components/Greeting'
+  NavLink,
+} from 'react-router-dom';
+import Greeting from './components/Greeting';
 
-import './App.css'
+import './App.css';
 
 const App = () => (
   <BrowserRouter>
@@ -19,6 +19,6 @@ const App = () => (
       </Routes>
     </div>
   </BrowserRouter>
-)
+);
 
-export default App
+export default App;
