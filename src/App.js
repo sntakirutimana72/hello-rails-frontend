@@ -1,11 +1,24 @@
-import './App.css';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  NavLink
+} from "react-router-dom"
+import Greeting from './components/Greeting'
 
-function App() {
-  return (
-    <div className="App">
-      <h1 className="welcome-title">React Template</h1>
+import './App.css'
+
+const App = () => (
+  <BrowserRouter>
+    <nav>
+      <NavLink to="/random-greeting">Greeting</NavLink>
+    </nav>
+    <div>
+      <Routes>
+        <Route exact path="/random-greeting" element={<Greeting />} />
+      </Routes>
     </div>
-  );
-}
+  </BrowserRouter>
+)
 
-export default App;
+export default App
