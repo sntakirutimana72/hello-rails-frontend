@@ -1,6 +1,21 @@
-# React App Template
+# Hello-rails
 
-A React app template that consists of linter configurations and other additional boilerplate code. Built with HTML5, CSS, JavaScript &amp; React.
+> A react app that displays a random greeting message. It uses rails restful API to retrieve data..
+
+<table>
+  <tr>
+    <th>Home</th>
+    <th>Random-Greeting</th>
+  </tr>
+  <tr>
+    <td><img src="./preview-0.png" alt="home"></td>
+    <td><img src="./preview-1.png" alt="greeting"></td>
+  </tr>
+</table>
+
+## Counterpart app link
+
+- [backend-app](../../../hello-rails-backend)
 
 
 ## Built With
@@ -10,11 +25,6 @@ A React app template that consists of linter configurations and other additional
 - Redux
 - React
 - JavaScript
-
-
-## Live Demo
-
-__live demo links go here__
 
 
 ## Getting Started
@@ -88,4 +98,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://github.com/sntakirutimana72/microverse-react-template/blob/main/LICENSE) licensed.
+This project is [MIT](./LICENSE) licensed.
