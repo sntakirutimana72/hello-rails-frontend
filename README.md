@@ -2,6 +2,17 @@
 
 > A react app that displays a random greeting message. It uses rails restful API to retrieve data..
 
+<table>
+  <tr>
+    <th>Home</th>
+    <th>Random-Greeting</th>
+  </tr>
+  <tr>
+    <td><img src="./preview-0.png" alt="home"></td>
+    <td><img src="./preview-1.png" alt="greeting"></td>
+  </tr>
+</table>
+
 ## Counterpart app link
 
 - [backend-app](../../../hello-rails-backend)
